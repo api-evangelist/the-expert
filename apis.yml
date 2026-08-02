@@ -1,8 +1,24 @@
 aid: the-expert
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-expert.png
 name: The Expert
-description: 'The Expert is a company surfaced as a portfolio company of forerunner-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'The Expert is a consumer marketplace that connects people with top interior
+  designers worldwide through paid one-on-one video consultations, paired with an Expert-curated
+  home shopping marketplace where those designers'' product picks can be purchased directly.
+  Founded by celebrity interior designer Jake Arnold and tech entrepreneur Leo Seigal, the
+  company is backed by Forerunner Ventures, First Round Capital, WndrCo, and others. It operates
+  as a business-to-consumer platform with a trade program for design professionals; it publishes
+  no public developer API. This profile captures its public web presence and domain security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/the-expert/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Interior Design
+- Marketplace
+- E-Commerce
+- Home Design
+- Video Consultations
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/the-expert-domain-security.yml
 - type: Website
   url: https://theexpert.com
+- type: Blog
+  url: https://www.theexpert.com/blog
+- type: Support
+  url: https://www.theexpert.com/support
+- type: TermsOfService
+  url: https://www.theexpert.com/terms
+- type: PrivacyPolicy
+  url: https://www.theexpert.com/privacy
+- type: SignUp
+  url: https://www.theexpert.com/sign-up
+- type: Login
+  url: https://www.theexpert.com/sign-in
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
