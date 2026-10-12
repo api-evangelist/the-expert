@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/the-expert/integrations
+- https://n8n.io/integrations/the-expert/
+- https://composio.dev/toolkits/the-expert
+- https://monid.ai/tools/the-expert
+checked:
+- https://composio.dev/toolkits/the-expert
+- https://monid.ai/tools/the-expert
+- https://n8n.io/integrations/the-expert/
+- https://zapier.com/apps/the-expert/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
